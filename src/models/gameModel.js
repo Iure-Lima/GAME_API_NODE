@@ -6,5 +6,5 @@ const gameSchema = new mongoose.Schema({
   genre: String,
   platform: String,
 });
-const model = new mongoose.model("games", gameSchema);
-export default model;
+const gameModel = new mongoose.model("games", gameSchema);
+export default gameModel;

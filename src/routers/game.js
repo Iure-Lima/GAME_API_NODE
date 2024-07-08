@@ -2,8 +2,11 @@ import { Router } from "express";
 
 const gameRouter = Router();
 
-gameRouter.get("/", (req, res) => {
-  res.json({ message: "Welcome to the game!" });
-});
+gameRouter.get("/");
+gameRouter.get("/:id");
+gameRouter.post("/");
+gameRouter.put("/:id");
+gameRouter.patch("/:id");
+gameRouter.delete("/:id");
 
 export default gameRouter;

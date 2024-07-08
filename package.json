@@ -1,0 +1,19 @@
+{
+  "name": "Game_API",
+  "version": "1.0.0",
+  "description": "This is a simple game API using the JavaScript programming language, Nodejs, Express tools and a NoSQL database.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "node --watch ./src/server.js",
+    "test": ""
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "Iure Lima",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}

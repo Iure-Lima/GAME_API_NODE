@@ -4,6 +4,7 @@ This is an API for managing game data, built with Node.js and MongoDB. The API a
 
 - [dotenv](https://www.npmjs.com/package/dotenv)
 - [express](https://expressjs.com/pt-br/)
+- [mongoose](<https://mongoosejs.com/docs/api/connection.html#Connection()>)
 
 ## Author
 

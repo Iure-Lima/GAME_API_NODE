@@ -1,8 +1,8 @@
-import gameModel from "../models/gameModel";
+import gameModel from "../models/gameModel.js";
 
 class GameRepository {
   async findAll() {
-    return await gameModel.find();
+    return await gameModel.find({});
   }
 
   async findById(id) {

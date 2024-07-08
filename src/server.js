@@ -1,6 +1,9 @@
 import env from "./config/env.js";
 import express from "express";
 import router from "./routers/indexRouters.js";
+import DBConnection from "./config/db.js";
+
+DBConnection();
 
 const app = express();
 app.use(express.json());

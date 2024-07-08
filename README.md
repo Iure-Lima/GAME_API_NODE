@@ -32,6 +32,10 @@ npm i
 
 ```env
 PORT = 3000
+USERNAME_DB= root
+PASSWORD_DB= root
+DATABASE_NAME= games_management
+PORT_DB=27017
 ```
 
 4. Start the docker container:

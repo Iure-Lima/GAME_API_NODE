@@ -85,7 +85,7 @@ const deleteGame = async (req, res) => {
       res.status(400).json({ message: "Game not found" });
       return;
     }
-    res.status(200).json({ message: "This game is deleted", ...deleteGame });
+    res.status(204).json();
   } catch (error) {
     res.status(500).json({ error: error });
   }
